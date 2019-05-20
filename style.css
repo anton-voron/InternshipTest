@@ -1,0 +1,46 @@
+.input-photo {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.input-photo li {
+	margin: 0;
+	padding: 0;
+	margin-right: 20px;
+}
+.canvas {
+	padding: 0px;
+	margin: 0px;
+}
+.switch-btn{
+	width: 80px;
+	height: 35px;
+	border: none;
+	border-radius: 40px;
+	position: absolute;
+	top: calc(50% - 35px/2);
+	left: calc(50% - 80px);
+}
+.switch-btn-disable{
+	background-color: #333131;
+}
+.switch-btn-active {
+	background-color: #dddddd;
+}
+.btn-indicator {
+	width: 30px;
+	height: 30px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	position: absolute;
+	top: calc(50% - 30px/2);
+	left: calc(50% - 75px);
+	transition: .4s;
+}
+.disable{
+	background-color: #ffffff;
+}
+.active {
+	background-color: #4caf50;
+	transform: translateX(40px);
+}
