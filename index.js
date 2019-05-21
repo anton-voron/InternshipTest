@@ -16,7 +16,7 @@ input1.addEventListener('change', firstHandleImage);
 input2.addEventListener('change', secoundHandleImage);
 
 function upload (img, x, y, x2, y2) {
-	if(input1.validate == true) {
+	
 		if (flipper.name == "row") {
 			var width = (img.width * 100 / img.height);
 			ctx.clearRect(x, y, 200, 100);
@@ -28,7 +28,7 @@ function upload (img, x, y, x2, y2) {
 			ctx.clearRect(x2, y2, 200, 100);
 			ctx.drawImage(img, x2, y2, width, 100);
 		}
-	}
+	
 };
 
 function uploadReader (e, input, x, y, x2, y2) {
