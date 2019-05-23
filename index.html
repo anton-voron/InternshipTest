@@ -13,16 +13,18 @@
 			<div class="form-wrapper">
 				<ul class="input-photo">
 					<li>
-						<label for="image-uploads">Choose images to upload (PNG, JPG)</label>
-						<input type="file" id="input1" name="image-uploads" accept=".jpg, .jpeg, .png">
+						<input type="file" id="input1" name="image-uploads" accept=".jpg, .jpeg, .png" class="inputfile" />
+						<label for="input1" class="inputLabel"></label>
 					</li>
 					<li>
-						<canvas id="canvas" width="500" height="300" class="canvas"> 
-						</canvas>
+						<div class="canvas-wrapper">
+							<canvas id="canvas" width="400" height="220" class="canvas"> 
+							</canvas>
+						</div>
 					</li>
 					<li>
-						<label for="image-uploads2">Choose images to upload (PNG, JPG)</label>
-						<input type="file" id="input2" name="image-uploads" accept=".jpg, .jpeg, .png">
+						<input type="file" id="input2" name="image-uploads" accept=".jpg, .jpeg, .png" class="inputfile">
+						<label for="input2" class="inputLabel"></label>
 					</li>
 				</ul>
 			</div>

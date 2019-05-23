@@ -42,12 +42,10 @@ function uploadValidator () {
 
 
 function firstHandleImage (e) {
-		e.preventDefault();
 		uploadReader (e, input1, 0, 0, 0, 0);	
 };
 
 function secoundHandleImage (e) {
-	e.preventDefault();
 		uploadReader(e, input2, 230, 0, 0, 120);		
 };
 
